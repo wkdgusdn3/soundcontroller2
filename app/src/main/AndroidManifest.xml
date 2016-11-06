@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wkdgusdn3.soundcontroller2">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.wkdgusdn3.service.SoundService" />
+
+        <receiver
+            android:name="com.wkdgusdn3.broadcastreceiver.BootReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume0" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume1" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume2" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume3" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume4" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume5" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume6" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume7" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume8" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume9" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume10" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume11" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume12" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume13" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume14" />
+        <receiver android:name="com.wkdgusdn3.broadcastreceiver.ReceiverVolume15" />
+
+    </application>
+
+</manifest>

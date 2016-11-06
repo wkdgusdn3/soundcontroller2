@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/volume0"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume1"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume1"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume2"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume2"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume3"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume3"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume4"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume4"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume5"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume5"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume6"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume6"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume7"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume7"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume8"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume8"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume9"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume9"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume10"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume10"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume11"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume11"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume12"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume12"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume13"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume13"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume14"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume14"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/volume15"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/volume15"
+        android:src="@drawable/circle"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
